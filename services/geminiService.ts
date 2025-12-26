@@ -8,7 +8,7 @@ const processFileToQuiz = async (
   startQuestion: number = 1,
   endQuestion: number = 50
 ): Promise<QuizData> => {
-  const apiKey = process.env.API_KEY;
+  const apiKey = AIzaSyCfDNZplkQUMSMd7nZWGWvVWZMT8witQZk ;
   if (!apiKey) {
     throw new Error("API Key is missing");
   }
